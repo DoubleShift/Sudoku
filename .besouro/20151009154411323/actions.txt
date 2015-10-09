@@ -1,0 +1,57 @@
+FileOpenedAction 1444394651704 TestSudokuVerifier.java 554 1 5 2
+EditAction 1444394686763 TestSudokuVerifier.java 554 1 5 2
+UnitTestCaseAction 1444394688701 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444394688709 TestSudokuVerifier FAIL
+EditAction 1444394751364 main.java 434 1 3 0
+EditAction 1444394769677 SudokuVerifier.java 1967 7 17 0
+UnitTestCaseAction 1444394778324 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444394778325 TestSudokuVerifier FAIL
+EditAction 1444395709836 main.java 565 1 4 0
+UnitTestCaseAction 1444395749689 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444395749690 TestSudokuVerifier FAIL
+EditAction 1444395864606 main.java 530 1 3 0
+FileOpenedAction 1444395882779 Cell.java 69 0 0 0
+EditAction 1444396656423 main.java 664 1 4 0
+EditAction 1444396881843 SudokuVerifier.java 2036 7 18 0
+EditAction 1444396908094 SudokuVerifier.java 2047 7 18 0
+RefactoringAction 1444396992085 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+EditAction 1444397062901 main.java 664 1 4 0
+EditAction 1444397204373 main.java 672 1 4 0
+EditAction 1444397283152 SudokuVerifier.java 2108 7 16 0
+EditAction 1444397299433 main.java 672 1 4 0
+EditAction 1444397376836 SudokuVerifier.java 2089 7 17 0
+EditAction 1444397808775 SudokuVerifier.java 2098 7 17 0
+EditAction 1444397915443 SudokuVerifier.java 2089 7 17 0
+EditAction 1444398749522 SudokuVerifier.java 2131 7 19 0
+EditAction 1444398759757 SudokuVerifier.java 2130 7 19 0
+EditAction 1444398785946 main.java 672 1 4 0
+EditAction 1444398795344 main.java 668 1 4 0
+EditAction 1444399014040 main.java 1048 1 6 0
+EditAction 1444399025294 main.java 1048 1 6 0
+EditAction 1444399297516 SudokuVerifier.java 2276 7 20 0
+EditAction 1444399336157 SudokuVerifier.java 2269 7 20 0
+EditAction 1444399663834 main.java 1048 1 6 0
+FileOpenedAction 1444400116965 TestSudokuVerifier.java 554 1 5 2
+EditAction 1444400224003 TestSudokuVerifier.java 1025 1 6 5
+EditAction 1444400225524 main.java 1048 1 6 0
+UnitTestCaseAction 1444400226890 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444400226891 TestSudokuVerifier FAIL
+EditAction 1444400250193 TestSudokuVerifier.java 1024 1 6 5
+UnitTestCaseAction 1444400252089 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444400252091 TestSudokuVerifier OK
+RefactoringAction 1444400267083 TestSudokuVerifier.java RENAME test()=>void testRu() METHOD
+RefactoringAction 1444400269087 TestSudokuVerifier.java RENAME testRu()=>void test() METHOD
+RefactoringAction 1444400284090 TestSudokuVerifier.java RENAME test()=>void testVal() METHOD
+RefactoringAction 1444400285593 TestSudokuVerifier.java RENAME testVal()=>void testValid() METHOD
+RefactoringAction 1444400291598 TestSudokuVerifier.java ADD void testValid()/2 METHOD
+RefactoringAction 1444400291599 TestSudokuVerifier.java ADD void testValid()/3 METHOD
+RefactoringAction 1444400293105 TestSudokuVerifier.java ADD void testValid()/4 METHOD
+RefactoringAction 1444400293106 TestSudokuVerifier.java ADD void testValid()/5 METHOD
+RefactoringAction 1444400308135 TestSudokuVerifier.java RENAME testValid()/5=>void testRule() METHOD
+RefactoringAction 1444400309643 TestSudokuVerifier.java RENAME testRule()=>void testRule1() METHOD
+RefactoringAction 1444400330181 TestSudokuVerifier.java RENAME testValid()/4=>void testRule2() METHOD
+RefactoringAction 1444400345762 TestSudokuVerifier.java RENAME testValid()/3=>void testRule3() METHOD
+RefactoringAction 1444400361777 TestSudokuVerifier.java RENAME testValid()/2=>void testRule4() METHOD
+EditAction 1444400367825 TestSudokuVerifier.java 1389 5 10 5
+UnitTestCaseAction 1444400370476 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444400370477 TestSudokuVerifier OK

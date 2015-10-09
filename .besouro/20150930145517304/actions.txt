@@ -1,0 +1,60 @@
+FileOpenedAction 1443614118465 SudokuVerifier.java 189 1 1 0
+FileOpenedAction 1443615048963 TestSudokuVerifier.java 202 1 1 0
+EditAction 1443615272846 SudokuVerifier.java 194 1 1 0
+RefactoringAction 1443616233274 SudokuVerifier.java RENAME Game=>class <anonymous /1> null
+RefactoringAction 1443616256606 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443616256608 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1443616302694 SudokuVerifier.java MOVE <anonymous /1>=>class SudokuVerifier METHOD
+RefactoringAction 1443616307858 SudokuVerifier.java REMOVE setTileIfValid(int, int, int) METHOD
+RefactoringAction 1443616307862 SudokuVerifier.java REMOVE getTile(int, int) METHOD
+RefactoringAction 1443616307863 SudokuVerifier.java REMOVE calculateAllUesdTiles() METHOD
+RefactoringAction 1443616307866 SudokuVerifier.java REMOVE Game() METHOD
+RefactoringAction 1443616307867 SudokuVerifier.java REMOVE fromPuzzleString(String) METHOD
+RefactoringAction 1443616307868 SudokuVerifier.java REMOVE getTileString(int, int) METHOD
+RefactoringAction 1443616307869 SudokuVerifier.java REMOVE getUsedTiles(int, int) METHOD
+RefactoringAction 1443616307870 SudokuVerifier.java REMOVE calculateUesdTiles(int, int) METHOD
+RefactoringAction 1443616307872 SudokuVerifier.java REMOVE setTile(int, int, int) METHOD
+RefactoringAction 1443616307873 SudokuVerifier.java REMOVE getUsedTileByCoor(int, int) METHOD
+RefactoringAction 1443616451012 SudokuVerifier.java REMOVE sudoku FIELD
+RefactoringAction 1443616451014 SudokuVerifier.java REMOVE used FIELD
+EditAction 1443616573774 TestSudokuVerifier.java 393 1 3 1
+RefactoringAction 1443616595244 SudokuVerifier.java RENAME <initializer /1>=>boolean verify() METHOD
+RefactoringAction 1443616597265 SudokuVerifier.java RENAME verify()=>boolean verify_line() METHOD
+RefactoringAction 1443617531445 SudokuVerifier.java RENAME verify_line()=>boolean verify_() METHOD
+RefactoringAction 1443617532521 SudokuVerifier.java RENAME verify_()=>boolean verify_uni() METHOD
+RefactoringAction 1443617533537 SudokuVerifier.java RENAME verify_uni()=>boolean verify_unique() METHOD
+RefactoringAction 1443617541602 SudokuVerifier.java REMOVE verify_unique() METHOD
+RefactoringAction 1443617541711 SudokuVerifier.java ADD boolean verify_unique() METHOD
+RefactoringAction 1443617691294 SudokuVerifier.java REMOVE verify_unique() METHOD
+RefactoringAction 1443617692335 SudokuVerifier.java ADD boolean verify_unique() METHOD
+RefactoringAction 1443617725553 SudokuVerifier.java RENAME verify_unique()=>boolean verify_unique(String) METHOD
+RefactoringAction 1443617757613 SudokuVerifier.java ADD import javafx.util.converter.NumberStringConverter IMPORT
+RefactoringAction 1443618093989 SudokuVerifier.java ADD boolean ve FIELD
+RefactoringAction 1443618095512 SudokuVerifier.java RENAME ve=>boolean get FIELD
+RefactoringAction 1443618103110 SudokuVerifier.java RENAME get=>boolean get_ FIELD
+RefactoringAction 1443618104689 SudokuVerifier.java RENAME get_=>boolean get_line FIELD
+RefactoringAction 1443618105754 SudokuVerifier.java RENAME get_line=>boolean get_line() METHOD
+RefactoringAction 1443618110389 SudokuVerifier.java RENAME get_line()=>boolean get_line(String) METHOD
+RefactoringAction 1443618172221 SudokuVerifier.java RENAME get_line(String)=>boolean get_line_result(String) METHOD
+RefactoringAction 1443619121741 SudokuVerifier.java ADD boolean isNumeric(String) METHOD
+EditAction 1443619561490 SudokuVerifier.java 957 4 9 0
+UnitTestCaseAction 1443619581507 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443619581517 TestSudokuVerifier FAIL
+RefactoringAction 1443619636377 main.java ADD main.java CLASS
+FileOpenedAction 1443619637466 main.java 159 1 0 0
+RefactoringAction 1443619649212 main.java ADD import org.junit.Assert.assertEquals IMPORT
+EditAction 1443619678339 main.java 414 1 3 0
+UnitTestCaseAction 1443620023966 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620023967 TestSudokuVerifier OK
+CompilationAction 1443620128538 SudokuVerifier.java
+CompilationAction 1443620137604 SudokuVerifier.java
+EditAction 1443620141143 TestSudokuVerifier.java 553 1 5 2
+UnitTestCaseAction 1443620145813 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620145815 TestSudokuVerifier FAIL
+EditAction 1443620156018 TestSudokuVerifier.java 554 1 5 2
+UnitTestCaseAction 1443620157561 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443620157562 TestSudokuVerifier FAIL
+RefactoringAction 1443620213741 SudokuVerifier.java ADD boolean get_line_result(String)/2 METHOD
+RefactoringAction 1443620226511 SudokuVerifier.java RENAME get_line_result(String)/2=>boolean get_row_result(String) METHOD
+RefactoringAction 1443620231147 SudokuVerifier.java ADD boolean get_line_result(String)/2 METHOD
+RefactoringAction 1443620236183 SudokuVerifier.java RENAME get_line_result(String)/2=>boolean get_gird_result(String) METHOD
